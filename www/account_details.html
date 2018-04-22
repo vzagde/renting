@@ -1,0 +1,96 @@
+<div class="pages">
+	<div data-page="account_details" class="page">
+        <div class="page-content">
+            <div class="block">
+				<img src="img/logo.png">
+				<button id="photo_edit" class="button button-raised button-fill" onclick="open_dialog_for_image();" >Edit Photo</button>
+            </div>
+            <div class="row items_listing">
+				<div class="list-block pad5 col-100" id="profile_listing">
+	                <ul>
+	                    <li>
+	                        <div class="item-content">
+	                            <div class="item-inner">
+	                                <div class="item-input">
+	                                	<label style="font-size: smaller;">Name</label>
+	                                    <input type="text" id="disp_name" placeholder="Name" disabled>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </li>
+	                    <li>
+	                        <div class="item-content">
+	                            <div class="item-inner">
+	                                <div class="item-input">
+	                                	<label style="font-size: smaller;">Email ID</label>
+	                                    <input type="text" id="disp_email" placeholder="Email ID" disabled>
+	                                </div>
+	                            </div>
+	                        </div>
+                        </li>
+	                    <li>
+	                        <div class="item-content">
+	                            <div class="item-inner">
+	                                <div class="item-input">
+	                                	<label style="font-size: smaller;">Phone No.</label>
+	                                    <input type="text" id="disp_phoneno" placeholder="Phone No." value="">
+	                                </div>
+	                            </div>
+	                        </div>
+                        </li>
+                        <li>
+	                        <div class="item-content">
+	                            <div class="item-inner">
+	                                <div class="item-input">
+	                                	<label style="font-size: smaller;">Gender</label>
+										<select id="disp_gender" placeholder="Gender" value="" disabled>
+										<option>Male</option>
+										<option>Female</option>
+									</select>
+	                                </div>
+	                            </div>
+	                        </div>
+                        </li>
+                        <li>
+	                        <div class="item-content">
+	                            <div class="item-inner">
+	                                <div class="item-input">
+	                                	<label style="font-size: smaller;">Date of Birth</label>
+	                                    <input type="text" id="disp_dob" placeholder="Date of Birth" value="" disabled>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </li>
+	                    <li>
+	                        <div class="item-content">
+	                            <div class="item-inner">
+	                                <div class="item-input">
+	                                	<label style="font-size: smaller;">City</label>
+										<!-- <input type="text" id="disp_city" placeholder="City" value=""> -->
+										<select id="disp_city" placeholder="city" value="">
+												<option>Mumbai</option>
+												<option>Delhi</option>
+												<option>Chennai</option>
+												<option>Kolkata</option>
+												<option>Banglore</option>
+												<option>Pune</option>
+										</select>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </li>
+                   	</ul>
+				</div>
+			</div>
+			<div class="content-block">
+				<button id="updatedetails_btn" class="button button-raised button-fill" style="width:200px">Update Details</button>		
+			</div>
+			<div class="content-block">
+				<button id="myorders_btn" class="button button-raised button-fill" style="width:200px">My Orders</button>
+			</div>
+			<div class="content-block">
+				<button id="postedads_btn" class="button button-raised button-fill" style="width:200px">Posted Ad's</button>
+			</div>
+        </div>
+    </div>
+</div>
