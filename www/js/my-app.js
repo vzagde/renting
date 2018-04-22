@@ -633,7 +633,7 @@ function imagead_onSuccess(fileURL) {
     var options = new FileUploadOptions();
     options.fileKey = "file";
     options.fileName = fileURL.substr(fileURL.lastIndexOf('/') + 1);
-    fileURL = 'file:///storage/emulated/0/Android/DCIM/Facebook/FB_IMG_1479175034674.jpg';
+    // fileURL = 'file:///storage/emulated/0/Android/DCIM/Facebook/FB_IMG_1479175034674.jpg';
 
     options.mimeType = "image/jpeg";
     var headers = {
